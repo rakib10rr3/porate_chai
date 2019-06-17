@@ -212,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "onTextChanged: " + messageEditText.getText().toString() + messageEditText.getText().toString().length());
 
                 if (messageEditText.getText().length() > 0) {
-                    mUsersReference.child("typing").setValue(true);
+                    mUsersReference.child("typing").setValue(true); // todo now
                     sendButton.setColorFilter(Color.parseColor("#3498db"));
                 } else {
                     mUsersReference.child("typing").setValue(false);
@@ -334,6 +334,9 @@ public class MainActivity extends AppCompatActivity {
                 firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
                 if (firebaseUser != null) {
+
+                    mUsersReference = FirebaseDatabase.getInstance().getReference().child("users").child(firebaseUser.getUid());
+
                     User user = new User(firebaseUser.getDisplayName(), firebaseUser.getEmail(), firebaseUser.getPhotoUrl().toString(), false);
                     databaseReference.child("users").child(firebaseUser.getUid()).setValue(user);
 
