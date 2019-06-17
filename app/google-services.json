@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171316735931",
+    "firebase_url": "https://porate-chai-demo.firebaseio.com",
+    "project_id": "porate-chai-demo",
+    "storage_bucket": "porate-chai-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171316735931:android:8b93b3d96575ca27",
+        "android_client_info": {
+          "package_name": "com.rakib.chatappmini_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171316735931-ltcu8njeeismbksdn3t3o883e0pc6bjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rakib.chatappmini_project",
+            "certificate_hash": "58db8fdf150661beb72e86f7dc9f7c73955d9310"
+          }
+        },
+        {
+          "client_id": "171316735931-k5af89hl08jtid99auqud1daessi29t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjzCfkfXe42E-zawaohKMwn-l6RUmOyXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171316735931-k5af89hl08jtid99auqud1daessi29t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
