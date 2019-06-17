@@ -11,6 +11,6 @@ ChatAdapter.java contains recycler view adapter and view holder related code
 
 # Implemented
 
-- Chat Feature
+- Chat Feature (Profile Picture, message and sent time)
 
 - Typing Indicator
