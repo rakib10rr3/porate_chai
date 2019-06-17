@@ -1,15 +1,16 @@
-ChatAppMiniProject
+# ChatAppMiniProject
+
 MainActivity.java contains all the sign in code and chat realetd code
 ChatAdapter.java contains recycler view adapter and view holder related code
 
-Used 
+# Used 
 
-Firebase Relatime Database
+- Firebase Relatime Database
 
-Firebase Auth UI
+- Firebase Auth UI
 
-Implemented
+# Implemented
 
-Chat Feature
+- Chat Feature
 
-Typing Indicator
+- Typing Indicator
